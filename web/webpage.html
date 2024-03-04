@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <img src="Boat-Logo_200x.png" class="logo" alt="">
+        <div class="toggle" id="toggle" onclick="show()">
+            <img src="menu.png">
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">PRICE</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="col1">
+            <h1 id="title">bo<span id="letter">A</span>t</h1>
+            <h3 id="text">PLUG INTO NIRVANA</h3>
+            <a href="https://www.boat-lifestyle.com/collections/true-wireless-earbuds"><button id="btn">Visit Us</button></a>
+        </div>
+        <div class="col2">
+            <img src="boat3.png " id="img1">
+            <div class="change">
+                <img id="img2" onclick="change1()" src="Screenshot 2024-03-04 005149.png" alt="">
+                <img id="img3" onclick="change2()" src="Purple boat.png" alt="">
+                <img id="img4" onclick="change3()" src="ranveer boat.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="style/index.js"></script>
+</body>
+</html>

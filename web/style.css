@@ -61,20 +61,7 @@ body
     margin-right: auto;
     margin-left: 60px;
 }
-.toggle
-{
-    width: 40px;
-    display: none;
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    z-index: 10000;
-}
 
-.toggle img{
-    width: 40px;
-    float: right;
-}
 .navbar li
 {
     margin-right: 88px;
